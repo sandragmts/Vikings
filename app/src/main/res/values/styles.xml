@@ -1,0 +1,79 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Theme">Theme</style>
+
+
+    <!-- MAIN ACTIVITY XML PAGE RESOURCE -->
+
+    <!-- STYLE TEXTVIEWS -->
+
+    <style name="MainViews">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/norse</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/headerColor</item>
+
+    </style>
+
+    <!-- WELCOME ACTIVITY XML PAGE -->
+
+    <!-- STYLE TEXTVIEWS -->
+
+    <style name="vikingspic">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/picture_height</item>
+        <item name="android:scaleType">fitXY</item>
+        <item name="android:layout_marginTop">@dimen/small_dimen</item>
+    </style>
+
+    <!-- STYLE QUESTIONS -->
+
+
+    <style name="Questions">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size</item>
+        <item name="android:padding">@dimen/small_dimen</item>
+    </style>
+
+    <!-- BUTTON LAYOUT -->
+
+    <style name="Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:textColor">@color/headerColor</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">@dimen/small_dimen</item>
+
+
+    </style>
+
+
+    <!--LAST SET OF RESULT PAGES STYLES -->
+
+    <style name="results_view">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@color/background_color</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">@dimen/medium_dimen</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/headerColor</item>
+    </style>
+
+    <!-- OPEN YOU TUBE BUTTON -->
+
+
+</resources>

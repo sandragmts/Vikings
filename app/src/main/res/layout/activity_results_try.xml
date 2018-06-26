@@ -1,0 +1,52 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ResultsWin">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/win_pic"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/double_large"
+            android:layout_marginLeft="@dimen/small_dimen"
+            android:layout_marginRight="@dimen/small_dimen"
+            android:layout_marginTop="@dimen/small_dimen"
+            android:scaleType="fitXY"
+            android:src="@drawable/ragnarok" />
+
+        <TextView
+            android:id="@+id/results"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/extra_large"
+            android:layout_below="@+id/win_pic"
+            android:layout_margin="@dimen/small_dimen"
+            android:background="@color/background_color"
+            android:gravity="center"
+            android:padding="@dimen/medium_dimen"
+            android:text="@string/tryagain"
+            android:textAllCaps="true"
+            android:textColor="@color/headerColor"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/large"
+            android:layout_below="@id/results"
+            android:layout_gravity="center"
+            android:layout_marginLeft="125dp"
+            android:backgroundTint="@color/colorAccent"
+            android:onClick="openYoutube"
+            android:text="OPEN YOUTUBE"
+            android:textColor="@color/headerColor"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</ScrollView>

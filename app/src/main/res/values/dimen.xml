@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="medium_dimen">16dp</dimen>
+    <dimen name="large_dimen">24dp</dimen>
+    <dimen name="picture_height">100dp</dimen>
+    <dimen name="small_dimen">8dp</dimen>
+    <dimen name="large">40dp</dimen>
+    <dimen name="extra_large">180dp</dimen>
+    <dimen name="omega_large">200dp</dimen>
+    <dimen name="double_large">300dp</dimen>
+
+    <!-- Text default size -->
+    <dimen name="text_size">14sp</dimen>
+    <dimen name="option_size">16sp</dimen>
+    <dimen name="text_header">18sp</dimen>
+    <dimen name="title_sub_header">40sp</dimen>
+    <dimen name="title_header">60sp</dimen>
+</resources>

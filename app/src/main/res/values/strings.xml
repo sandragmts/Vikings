@@ -1,0 +1,129 @@
+<resources>
+
+    <string name="app_name">Vikings</string>
+
+    <!-- FIRST PAGE -->
+    <!-- Welcome message to users -->
+    <string name="app_description"> Welcome</string>
+    <string name="norsemen_quiz">The Norsemen Quiz</string>
+    <string name="name_user">Enter your name to start</string>
+
+    <string name="start_button">Start Quiz</string>
+
+    <!-- SECOND PAGE // QUIZ PAGE -->
+
+    <!-- Who were vikings description -->
+    <string name="vikings_description">The Vikings came from three countries of Scandinavia: Denmark, Norway and Sweden.
+        The name \'Viking\' comes from a language called \'Old Norse\' and means \'a pirate raid\'.
+        \nPeople who went off raiding in ships were said to be \'going Viking\'.
+        The Viking age in European history was about AD 700 to 1100.</string>
+
+
+    <!-- FIRST QUESTION -->
+    <string name="first_question_text">Norse mithology is most spoken of in dialects called the
+    Old Norse, a North Germanic language spoken by Scandinavians in the Middle Age.
+        What are the Scandinavians countries?</string>
+
+    <!-- option a -->
+    <string name="question_one_option_a">Germany</string>
+
+    <!-- option b -->
+    <string name="question_one_option_b">Iceland</string>
+
+    <!-- option c -->
+    <string name="question_one_option_c">Norway</string>
+
+    <!-- option d -->
+    <string name="question_one_option_d">Russia</string>
+
+    <!-- SECOND QUESTION -->
+    <string name="second_question_text">Odin has only one eye. He switched his other eye for a drink
+    from the well of wisdom, which gave him immense knowledge. In the Norse mithology Odin is the same
+    of Zeus.</string>
+
+    <!-- option a -->
+    <string name="question_two_option_a">True</string>
+
+    <!-- option b -->
+    <string name="question_two_option_b">False</string>
+
+    <!-- THIRD QUESTION -->
+    <string name="third_question_text">What\'s the name of the famous female figure that
+    bring the dead brave warrior to Valhalla?</string>
+
+    <!-- option a -->
+    <string name="question_three_option_a">Valkyrie</string>
+
+    <!-- option b -->
+    <string name="question_three_option_b">Stanza</string>
+
+    <!-- option c -->
+    <string name="question_three_option_c">Freija</string>
+
+    <!-- FOURTH QUESTION -->
+    <string name="fourth_question_text">Norse mythology consists of tales of various deities,
+        beings, and heroes derived from numerous sources from both before and after the pagan
+        period, including medieval manuscripts, archaeological representations, and folk tradition.
+        Numerous gods are mentioned in the source texts such as:</string>
+
+    <!-- option a -->
+    <string name="question_four_option_a">Thor</string>
+
+    <!-- option b -->
+    <string name="question_four_option_b">Odin</string>
+
+    <!-- option c -->
+    <string name="question_four_option_c">Ragnarok</string>
+
+    <!-- option d -->
+    <string name="question_four_option_d">Freyja</string>
+
+    <!-- FIFTH QUESTION -->
+    <string name="fifth_question_text">Tuesday is named after the god of war and justice Tyr while in
+    Latim speaking contries such as France and Spain it\'s named after the same god Mars</string>
+
+    <!-- option a -->
+    <string name="question_five_option_a">True</string>
+
+    <!-- option b -->
+    <string name="question_five_option_b">False</string>
+
+    <!-- Button text -->
+    <string name="button">CHECK SCORE</string>
+
+
+    <!-- SIXTH QUESTION -->
+
+    <string name="sixth_question_text">In old Norse, the word Vikings means: </string>
+
+    <!-- Hint holder -->
+
+    <string name="hint_holder">Enter your answer.</string>
+
+
+    <!-- BEST RESULTS PAGE // WINNER HAS BETWEEN 8 - 10 POINTS -->
+
+    <string name="winner">Congrats!\n
+        You have great knowledge about the Norsemen Mythology and are up to the challenge!\n
+        Odin would be proud of you and Thor would treat you like a bro!
+    </string>
+
+    <!-- MID RESULTS PAGE // WINNER HAS BETWEEN 4 - 6 POINTS -->
+
+    <string name="mid">That is great!\n
+        You have ok knowledge about the Norsemen Mythology!\n
+        Maybe you should watch one more season of Vikings!
+    </string>
+
+    <!-- LOW RESULTS PAGE // WINNER HAS LESS THAN 4 POINTS -->
+
+    <string name="youtube">OPEN YOUTUBE</string>
+
+    <string name="tryagain">Hmmmmm!\n
+        You may need to try out again but before\n
+        click on the button below to watch some cool videos!
+    </string>
+
+</resources>
+
+

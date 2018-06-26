@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<!-- Creates the main page for Vikings
+      Collects user name
+      Starts quiz page -->
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="@dimen/small_dimen"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@color/background_color"
+    tools:context=".Welcome">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="ExtraText">
+
+    <!-- Three main TextViews -->
+
+    <TextView
+        android:id="@+id/welcome"
+        style="@style/MainViews"
+        android:layout_marginTop="@dimen/large_dimen"
+        android:text="@string/app_description"
+        android:textAllCaps="true"
+        android:textSize="@dimen/title_header" />
+
+    <TextView
+        android:id="@+id/main_header"
+        style="@style/MainViews"
+        android:layout_below="@id/welcome"
+        android:padding="@dimen/medium_dimen"
+        android:text="@string/norsemen_quiz"
+        android:textSize="@dimen/title_sub_header" />
+
+    <EditText
+        android:id="@+id/edit_text"
+        style="@style/MainViews"
+        android:layout_below="@id/main_header"
+        android:layout_margin="@dimen/medium_dimen"
+        android:hint="@string/name_user"
+        android:inputType="text"
+        android:textColorHint="@color/headerColor" />
+
+    <ImageView
+        android:id="@+id/pic"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@id/edit_text"
+        android:src="@drawable/vahalla" />
+
+    <!-- Button starts Quiz -->
+
+    <Button
+        android:id="@+id/start"
+        android:layout_below="@id/pic"
+        android:layout_marginBottom="@dimen/large"
+        style="@style/Button"
+        android:background="@color/colorPrimary"
+        android:onClick="startQuiz"
+        android:text="@string/start_button" />
+
+    </RelativeLayout>
+
+</ScrollView>
